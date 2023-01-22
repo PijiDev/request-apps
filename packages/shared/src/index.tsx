@@ -62,13 +62,13 @@ export const chainInfos: Record<string | number, ChainInfo> = {
     color: "#48a900",
     chainId: 100,
     name: "xDAI Chain",
-    rpcUrls: ["https://gnosischain-rpc.gateway.pokt.network/"],
+    rpcUrls: ["https://rpc.gnosischain.com/"],
     nativeCurrency: {
       name: "xDAI",
       symbol: "xDAI",
       decimals: 18,
     },
-    blockExplorerUrls: ["https://gnosischain.io/"],
+    blockExplorerUrls: ["https://gnosisscan.io/"],
   },
   matic: {
     id: "matic",
